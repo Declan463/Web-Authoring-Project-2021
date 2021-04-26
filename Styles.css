@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+		background-color:#16C1F7;
+		color:#343434;
+		}
+	#wrapper{
+			width:1500px;
+			background-color:#E1E1E1;
+			border:round;
+			border-top-left-radius:10px;
+			border-top-right-radius:10px;
+			border-bottom-left-radius:10px;
+			border-bottom-right-radius:10px;
+			margin:auto;
+		   }
+	header{
+			border-top-left-radius:10px;
+			border-top-right-radius:10px;
+			text-align:center;
+			background-color:#FBF4F4;
+			border:solid;
+			border-width:medium;
+			border-color:#000000;
+			height:150px;
+			padding-top:75px;
+			}
+
+	nav 	{
+			background-color:#FFFFFF;
+			position:sticky;
+			top:0px;
+			border:inset;
+			}
+	ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+		width:100%;
+		height:100%;
+		}
+	li {
+		float:left;
+		border-right:inset #000000;
+		}
+	li a{
+		display:block;
+		background-color:#ffffff;
+		padding:14px 16px;
+		text-decoration:none;
+		}
+	li a:hover{
+		background-color:#EAFC3B;
+		}
+	main {
+		background-color:white;
+		margin-right:center;
+		margin-left:center;
+		border:solid;
+		border-color:#000000;
+		padding-top:2px;
+		padding-right:2px;
+		padding-bottom:0px;
+		padding-left:2px;
+		float:left;
+		}
+	footer{
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		color:#FEF9F9;
+		clear:both;
+		height:100px;
+		background-color:white;
+		border:thick solid #000000;
+	}
+    h1  {color:#F0DA15;
+		}
+	a:link {
+    color:orangered;
+	}
+	a:visited {
+	   color:goldenrod;
+	   }
+	a:hover {
+    	color:#00DD00;
+	}
+	a:active {
+    	color:darkblue;
+	}
+	
